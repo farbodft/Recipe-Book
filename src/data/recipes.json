@@ -1,0 +1,229 @@
+[
+    {
+      "id": 1,
+      "title": "Ghormeh Sabzi",
+      "category": "Iranian",
+      "image": "/images/ghs.jpg",
+      "ingredients": [
+        "300g stew meat (lamb or beef)",
+        "500g fresh herbs (parsley, leek, coriander, fenugreek)",
+        "1 cup red kidney beans (soaked overnight)",
+        "4 dried limes (limoo amani)",
+        "2 onions",
+        "Oil, salt, pepper, turmeric as needed"
+      ],
+      "steps": [
+        "Dice the onions and fry in oil until golden.",
+        "Add the meat, turmeric, and pepper. Brown on all sides.",
+        "Add the soaked kidney beans and 3 cups of water. Bring to a boil.",
+        "In a separate pan, fry the chopped herbs with oil until dark and aromatic.",
+        "Add the fried herbs and pierced dried limes to the stew.",
+        "Lower the heat and simmer for 2–3 hours until the meat is tender.",
+        "Season with salt near the end and serve with steamed rice."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "California Sushi",
+      "category": "Japanese",
+      "image": "/images/sushi.jpg",
+      "ingredients": [
+        "2 cups sushi rice (cooked and seasoned)",
+        "4 sheets nori (seaweed)",
+        "1 avocado, sliced",
+        "1 cucumber, julienned",
+        "200g imitation crab sticks (or real crab)",
+        "1 tbsp sesame seeds",
+        "Soy sauce, pickled ginger, wasabi for serving"
+      ],
+      "steps": [
+        "Place a nori sheet on a bamboo mat, shiny side down.",
+        "Spread an even layer of sushi rice on the nori, leaving a 1cm border.",
+        "Sprinkle sesame seeds over the rice.",
+        "Flip the nori so the rice faces down on the mat.",
+        "Lay avocado, cucumber, and crab sticks along the center.",
+        "Roll tightly using the mat, applying gentle pressure.",
+        "Slice into 8 pieces with a wet knife. Serve with soy sauce, ginger, and wasabi."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Pepperoni Pizza",
+      "category": "Italian",
+      "image": "/images/pepperoni.jpg",
+      "ingredients": [
+        "1 pizza dough (store-bought or homemade)",
+        "1/2 cup pizza sauce",
+        "200g mozzarella cheese, shredded",
+        "50g pepperoni slices",
+        "1 tbsp olive oil",
+        "Dried oregano and chili flakes (optional)"
+      ],
+      "steps": [
+        "Preheat the oven to 220°C (430°F).",
+        "Roll out the pizza dough on a floured surface.",
+        "Spread the pizza sauce evenly, leaving a border.",
+        "Top with mozzarella cheese and arrange pepperoni slices.",
+        "Drizzle with olive oil and sprinkle oregano.",
+        "Bake for 12–15 minutes until the crust is golden and cheese bubbles.",
+        "Slice and serve hot with chili flakes if desired."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Kebab Koobideh",
+      "category": "Iranian",
+      "image": "/images/kabab.jpg",
+      "ingredients": [
+        "500g ground lamb or beef (20% fat)",
+        "1 onion, grated and drained",
+        "1 tsp salt",
+        "1/2 tsp black pepper",
+        "1/2 tsp turmeric",
+        "1/2 tsp sumac (for serving)",
+        "Lavash bread and fresh herbs for serving"
+      ],
+      "steps": [
+        "Mix the ground meat with grated onion, salt, pepper, and turmeric.",
+        "Knead the mixture well for 5 minutes until sticky.",
+        "Cover and refrigerate for at least 1 hour.",
+        "Take a handful of meat and press it around flat metal skewers.",
+        "Grill over hot charcoal, turning frequently until cooked through.",
+        "Serve on lavash bread with sumac, grilled tomatoes, and fresh herbs."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Ravioli Pasta",
+      "category": "Italian",
+      "image": "/images/ravioli.webp",
+      "ingredients": [
+        "250g ravioli (cheese or meat filled)",
+        "2 tbsp butter",
+        "4 fresh sage leaves",
+        "1 clove garlic, sliced",
+        "Grated Parmesan cheese",
+        "Salt and black pepper"
+      ],
+      "steps": [
+        "Bring a large pot of salted water to a boil.",
+        "Cook the ravioli according to package instructions (about 3-4 minutes).",
+        "While pasta cooks, melt butter in a pan and add garlic and sage.",
+        "Cook until butter turns golden and fragrant. Remove from heat.",
+        "Drain the ravioli and add to the butter sauce, tossing gently.",
+        "Serve with grated Parmesan and black pepper."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Pancakes",
+      "category": "Breakfast",
+      "image": "/images/pancake.jpg",
+      "ingredients": [
+        "1 1/2 cups all-purpose flour",
+        "3 1/2 tsp baking powder",
+        "1 tbsp sugar",
+        "1/4 tsp salt",
+        "1 1/4 cups milk",
+        "1 egg",
+        "3 tbsp melted butter",
+        "Maple syrup and fresh fruits for topping"
+      ],
+      "steps": [
+        "Sift together flour, baking powder, sugar, and salt.",
+        "In another bowl, whisk milk, egg, and melted butter.",
+        "Pour the wet mixture into the dry ingredients. Stir until just combined (lumps are okay).",
+        "Heat a non-stick pan over medium heat and lightly grease.",
+        "Pour 1/4 cup of batter for each pancake. Cook until bubbles form, then flip.",
+        "Cook until golden brown on both sides. Serve with syrup and fruits."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Caesar Salad",
+      "category": "Salad",
+      "image": "/images/ceasar.jpg",
+      "ingredients": [
+        "1 head romaine lettuce, chopped",
+        "1/2 cup Caesar dressing",
+        "1 cup croutons",
+        "1/3 cup Parmesan cheese, shaved",
+        "Grilled chicken breast (optional)",
+        "Lemon wedges"
+      ],
+      "steps": [
+        "Wash and dry the romaine lettuce, then chop into bite-sized pieces.",
+        "In a large bowl, toss lettuce with Caesar dressing.",
+        "Add croutons and half of the Parmesan. Toss again.",
+        "Top with sliced grilled chicken if desired.",
+        "Garnish with remaining Parmesan and serve with lemon wedges."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Strawberry Matcha Iced Latte",
+      "category": "Beverage",
+      "image": "/images/matcha.webp",
+      "ingredients": [
+        "1 tsp matcha powder",
+        "2 tbsp hot water (80°C)",
+        "1 cup milk (dairy or plant-based)",
+        "1 tbsp strawberry syrup",
+        "Ice cubes",
+        "Fresh strawberries for garnish"
+      ],
+      "steps": [
+        "Sift matcha powder into a bowl. Add hot water and whisk until smooth.",
+        "Drizzle strawberry syrup into a tall glass.",
+        "Add ice cubes and pour milk over the ice.",
+        "Slowly pour the matcha over the milk for a layered effect.",
+        "Stir before drinking. Garnish with fresh strawberry slices."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Omelette",
+      "category": "Breakfast",
+      "image": "/images/omlete.jpg",
+      "ingredients": [
+        "3 eggs",
+        "2 tbsp milk or water",
+        "1 tbsp butter",
+        "Salt and pepper to taste",
+        "Fillings: cheese, diced ham, bell peppers, mushrooms (optional)"
+      ],
+      "steps": [
+        "Whisk eggs, milk, salt, and pepper in a bowl.",
+        "Heat butter in a non-stick skillet over medium heat.",
+        "Pour in the egg mixture and let it set slightly.",
+        "Add your desired fillings on one half of the omelette.",
+        "Fold the other half over the fillings. Cook for 1 more minute.",
+        "Slide onto a plate and serve immediately."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Ash Reshteh",
+      "category": "Iranian",
+      "image": "/images/Ash.jpg",
+      "ingredients": [
+        "1/2 cup chickpeas (soaked)",
+        "1/2 cup kidney beans (soaked)",
+        "1/2 cup lentils",
+        "1 cup fresh herbs (parsley, coriander, dill)",
+        "1/2 cup reshteh (Persian noodles)",
+        "1 onion, sliced",
+        "1 tbsp dried mint",
+        "Kashk (whey) for serving",
+        "Oil, salt, turmeric"
+      ],
+      "steps": [
+        "Cook chickpeas, beans, and lentils in plenty of water until tender.",
+        "Sauté sliced onions in oil until golden. Set some aside for garnish.",
+        "Add the chopped herbs to the pot and simmer for 20 minutes.",
+        "Break the noodles and add to the soup. Cook until noodles are soft.",
+        "In a small pan, fry dried mint in oil for a few seconds and add to the soup.",
+        "Season with salt and turmeric. Serve in bowls with kashk and fried onions."
+      ]
+    }
+  ]
