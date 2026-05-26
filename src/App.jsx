@@ -6,13 +6,14 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <HashRouter>
-      <div className="min-h-screen bg-slate-900">
+      <main className="min-h-screen bg-slate-900 text-white">
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/favorites" element={<FavoritesPage />} />
+          <Route path="*" element={<HomePage />} />
         </Routes>
-      </div>
+      </main>
     </HashRouter>
   );
 }
