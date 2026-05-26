@@ -2,19 +2,28 @@ import React, { useState, useEffect } from 'react';
 import { Heart } from 'lucide-react';
 
 export default function RecipeCard({ recipe, onClick }) {
-    const [isFavorite, setIsFavorite] = useState(false);
+    const [isFavorite, setIsFavorite] = useState(() => {
+      const favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+      return favorites.some((fav) => fav.id == recipe.id);
+    });
 
     useEffect(() => {
-      const favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
-      const isSaved = favorites.some((fav) => fav.id == recipe.id);
+      const updateStatus = () => {
+        const favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+        setIsFavorite(favorites.some((fav) => fav.id === rrecipe.id));
+      };
+
+      window.addEventListener('favoriteUpdated', updateStatus);
+      return () => window.removeEventListener('favoritesUpdated', updateStatus);
     }, [recipe.id]);
 
     const toggleFavorite = (e) => {
       e.stopPropagation();
 
       let favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+      const currentlyFav = favorites.some((fav) => fav.id === recipe.id);
 
-      if (isFavorite) {
+      if (currentlyFav) {
         favorites = favorites.filter((fav) => fav.id !== recipe.id);
       } else {
         favorites.push(recipe)
