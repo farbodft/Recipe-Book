@@ -3,7 +3,7 @@
       "id": 1,
       "title": "Ghormeh Sabzi",
       "category": "Iranian",
-      "image": "/images/ghs.jpg",
+      "image": "ghs.jpg",
       "ingredients": [
         "300g stew meat (lamb or beef)",
         "500g fresh herbs (parsley, leek, coriander, fenugreek)",
@@ -26,7 +26,7 @@
       "id": 2,
       "title": "California Sushi",
       "category": "Japanese",
-      "image": "/images/sushi.jpg",
+      "image": "sushi.jpg",
       "ingredients": [
         "2 cups sushi rice (cooked and seasoned)",
         "4 sheets nori (seaweed)",
@@ -50,7 +50,7 @@
       "id": 3,
       "title": "Pepperoni Pizza",
       "category": "Italian",
-      "image": "/images/pepperoni.jpg",
+      "image": "pepperoni.jpg",
       "ingredients": [
         "1 pizza dough (store-bought or homemade)",
         "1/2 cup pizza sauce",
@@ -73,7 +73,7 @@
       "id": 4,
       "title": "Kebab Koobideh",
       "category": "Iranian",
-      "image": "/images/kabab.jpg",
+      "image": "kabab.jpg",
       "ingredients": [
         "500g ground lamb or beef (20% fat)",
         "1 onion, grated and drained",
@@ -96,7 +96,7 @@
       "id": 5,
       "title": "Ravioli Pasta",
       "category": "Italian",
-      "image": "/images/ravioli.webp",
+      "image": "ravioli.webp",
       "ingredients": [
         "250g ravioli (cheese or meat filled)",
         "2 tbsp butter",
@@ -118,7 +118,7 @@
       "id": 6,
       "title": "Pancakes",
       "category": "Breakfast",
-      "image": "/images/pancake.jpg",
+      "image": "pancake.jpg",
       "ingredients": [
         "1 1/2 cups all-purpose flour",
         "3 1/2 tsp baking powder",
@@ -142,7 +142,7 @@
       "id": 7,
       "title": "Caesar Salad",
       "category": "Salad",
-      "image": "/images/ceasar.jpg",
+      "image": "ceasar.jpg",
       "ingredients": [
         "1 head romaine lettuce, chopped",
         "1/2 cup Caesar dressing",
@@ -163,7 +163,7 @@
       "id": 8,
       "title": "Strawberry Matcha Iced Latte",
       "category": "Beverage",
-      "image": "/images/matcha.webp",
+      "image": "matcha.webp",
       "ingredients": [
         "1 tsp matcha powder",
         "2 tbsp hot water (80°C)",
@@ -184,7 +184,7 @@
       "id": 9,
       "title": "Omelette",
       "category": "Breakfast",
-      "image": "/images/omlete.jpg",
+      "image": "omlete.jpg",
       "ingredients": [
         "3 eggs",
         "2 tbsp milk or water",
@@ -205,7 +205,7 @@
       "id": 10,
       "title": "Ash Reshteh",
       "category": "Iranian",
-      "image": "/images/Ash.jpg",
+      "image": "Ash.jpg",
       "ingredients": [
         "1/2 cup chickpeas (soaked)",
         "1/2 cup kidney beans (soaked)",
