@@ -7,7 +7,6 @@ export default function FavoritesPage() {
   const [favorites, setFavorites] = useState([]);
   const [selectedRecipe, setSelectedRecipe] = useState(null);
 
-  // Load favorites from localStorage on component mount
   useEffect(() => {
     const loadFavorites = () => {
       const saved = JSON.parse(localStorage.getItem("favorites") || "[]");
@@ -16,8 +15,6 @@ export default function FavoritesPage() {
 
     loadFavorites();
 
-    // Optional: Listen for storage changes 
-    // (Useful if the user has multiple tabs open or if you want instant updates)
     window.addEventListener("favoritesUpdated", loadFavorites);
     return () => window.removeEventListener("favoritesUpdated", loadFavorites);
   }, []);
@@ -26,7 +23,6 @@ export default function FavoritesPage() {
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-black p-6">
       <div className="max-w-6xl mx-auto mb-8">
         <h1 className="text-3xl font-bold text-white mb-2">My Favorite Recipes</h1>
-        <p className="text-gray-400">Your curated collection of saved recipes.</p>
       </div>
 
       {favorites.length > 0 ? (
