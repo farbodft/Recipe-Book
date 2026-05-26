@@ -52,7 +52,7 @@ export default function RecipeCard({ recipe, onClick }) {
           />
         </button>
         <img
-          src={recipe.image}
+          src={import.meta.env.BASE_URL + 'images/' + recipe.image}
           alt={recipe.title}
           className="h-3/5 w-full object-cover"
         />
